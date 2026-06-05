@@ -189,4 +189,4 @@ Emotion inference from faces is **not reliable across demographic groups** — p
 ## Authors
 
 **Group 4 — CS1090B, Spring 2026**
-Daniel Wei · Enogayin Imasuen · Suffian Haroon
+Daniel Wei · Enoghayin Imasuen · Suffian Haroon
