@@ -1,0 +1,42 @@
+# ── Dataset (download from Kaggle, do not commit) ──────────────────────────────
+archive/
+data/
+*.zip
+*.tar.gz
+
+# ── Model checkpoints & saved artifacts ────────────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.npy
+*.npz
+results/
+checkpoints/
+saved_models/
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.python-version
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb~
+
+# ── OS / editor cruft ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
