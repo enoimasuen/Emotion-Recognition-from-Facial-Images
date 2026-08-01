@@ -108,9 +108,9 @@ Emotion-Recognition-from-Facial-Images/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── cs1090b_ms4_main_group4.ipynb     # main notebook (CNN ablation + transfer learning)
+├── Facial Emotion Recognition Notebook.ipynb     # main notebook (CNN ablation + transfer learning)
 ├── docs/
-│   ├── cs109b_ms4_report_group4.pdf  # full written report
+│   ├── Facial Emotion Recognition Notebook.pdf  # full written report
 │   └── MS4_Group4.pptx               # presentation slides
 └── archive/                          # FER-2013 — NOT committed; download separately
     ├── train/<emotion>/*.jpg
@@ -146,7 +146,7 @@ After extraction you should have `archive/train/` and `archive/test/`, each with
 **3. Run the notebook** — launch Jupyter from the repository root so the relative `archive/` path resolves correctly:
 
 ```bash
-jupyter notebook cs1090b_ms4_main_group4.ipynb
+jupyter notebook Facial Emotion Recognition Notebook.ipynb
 ```
 
 > **GPU strongly recommended.** The transfer-learning runs fine-tune ResNet-50 / VGG-16 / EfficientNet-B0 on 224×224 inputs across many configurations; the notebook uses CUDA automatically when available and falls back to CPU otherwise.
